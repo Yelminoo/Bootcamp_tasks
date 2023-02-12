@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        background-color: aquamarine;
+        border-radius: 0.1rem;
+      }
+
+      div {
+        border: 1px solid #fff;
+        margin: 0.2rem 0;
+        border-radius: 0.2rem;
+      }
+      label {
+        height: 2rem;
+        line-height: 2rem;
+        display: inline-block;
+        width: 20%;
+      }
+
+      input[type=submit],
+      input[type=reset]{
+        display: block;
+        margin: 0.5rem auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Step1:Your Details</legend>
+        <div>
+          <label for="">Name</label>
+          <input type="text" name="Name" id="" />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="" />
+        </div>
+
+        <div>
+          <label for="">Phone</label>
+          <input type="phone" name="phone" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Step2:Delivery Address</legend>
+        <div>
+          <label for="">Address</label>
+          <textarea name="" id="" cols="" rows=""></textarea>
+        </div>
+
+        <div>
+          <label for="postcode">Post Code</label>
+          <input type="number" name="postcode" id="" />
+        </div>
+
+        <div>
+          <label for="">Country</label>
+          <input type="text" name="Country" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Step3:Card Details</legend>
+        <div>
+          <label for="">Card Type</label>
+          <input type="radio" name="Visa" id="" />Visa
+          <input type="radio" name="Amex" id="" />AmEx
+          <input type="radio" name="Mastercard" id="" />Mastercard
+        </div>
+
+        <div>
+          <label for="card-no">Card Number</label>
+          <input type="number" name="card-no" id="" />
+        </div>
+
+        <div>
+          <label for="code">Security Code</label>
+          <input type="number" name="code" />
+        </div>
+        <div>
+          <label for="card-name">Name on card</label>
+          <input type="text" name="card-name" />
+        </div>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="cancel">
+      </fieldset>
+    </form>
+  </body>
+</html>
