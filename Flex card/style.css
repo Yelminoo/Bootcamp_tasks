@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* flexcard1 start */
+.row-1,
+.row-2,
+.row-3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card {
+  margin-right: 1rem;
+  margin-bottom: 0.2rem;
+  border: 1px solid rgb(71, 203, 251);
+  border-radius: 0.5rem;
+  height: 33vh;
+  width: 20vw;
+  color: rgb(71, 203, 251);
+}
+
+.card-header {
+  height: 20%;
+  text-align: center;
+  padding-top: 0.5rem;
+  border-bottom: 1px solid rgb(71, 203, 251);
+  font-size: 1.2rem;
+  background-color: rgba(182, 227, 244, 0.2);
+}
+
+.card-body {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.card-body .fa-solid,
+.fa-brands {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-body h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.row-2 .card {
+  border: 1px solid rgb(246, 142, 37);
+  color: rgb(246, 142, 37);
+}
+.row-2 .card-header {
+  border-bottom: 1px solid rgb(246, 142, 37);
+  background-color: rgba(251, 136, 59, 0.2);
+}
+
+.row-3 .card {
+  border: 1px solid rgb(233, 71, 71);
+  color: rgb(233, 71, 71);
+}
+.row-3 .card-header {
+  border-bottom: 1px solid rgb(233, 71, 71);
+  background-color: rgba(247, 109, 109, 0.2);
+}
+
+.fa-dumbbell {
+  transform: rotate(45deg);
+}
+
+/* flexcard1 end */
+/* flexcard2 start*/
+
+section h3 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.flex-2-body {
+  background-color: #f3f3f3;
+}
+
+.card-row-1,
+.card-row-2,
+.card-row-3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.card-row-1 .card,
+.card-row-2 .card,
+.card-row-3 .card {
+  position: relative;
+  width: 23vw;
+  height: 18vh;
+  padding: 2rem;
+  background-color: #ffff;
+  border: 1px solid #ffff;
+  border-radius: 0.2rem;
+  /* box-shadow: 0 0 5px 2px #8f8f8f; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-row-1 .card i,
+.card-row-2 .card i,
+.card-row-3 .card i {
+  font-size: 2.8rem;
+}
+
+.card-row-1 .card div {
+  text-align: end;
+  color: black;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+.card-row-2 .card div,
+.card-row-3 .card div {
+  color: black;
+}
+.card-row-1 .card div p,
+.card-row-2 .card div p,
+.card-row-3 .card div p {
+  opacity: 0.5;
+}
+
+.ticket h2,
+.fa-life-ring,
+.fa-pen,
+.post h2,
+.fa-newspaper,
+.progress .p1 {
+  color: #3db1db;
+}
+
+.rate h2,
+.fa-chart-pie,
+.fa-message,
+.comment h2,
+.fa-comments {
+  color: #f7ba3f;
+}
+
+.client h2,
+.fa-user,
+.fa-rocket.fa-arrow-trend-up,
+.rate h2,
+.fa-mug-hot {
+  color: #48c3a4;
+}
+
+.project h2,
+.fa-rocket,
+.fa-location-dot,
+.visit h2,
+.fa-signs-post {
+  color: #d01221;
+}
+
+.card-row-3 .card {
+  height: 23vh;
+}
+.card-row-3 .card .progress-bar {
+  position: absolute;
+  width: 80%;
+  height: 0.5rem;
+  border-radius: 1rem;
+  background-color: #f3f3f3;
+  bottom: 0.8rem;
+}
+
+.card-row-3 .card .progress {
+  position: absolute;
+
+  height: 0.5rem;
+  z-index: 3;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+
+  bottom: 0.8rem;
+}
+.card-row-3 .card div h2 {
+  margin-bottom: 1rem;
+}
+
+.p1 {
+  background-color: #3db1db;
+  width: 70%;
+}
+
+.p2 {
+  background-color: #f7ba3f;
+  width: 30%;
+}
+
+.p3 {
+  background-color: #48c3a4;
+  width: 60%;
+}
+
+.p4 {
+  background-color: #d01221;
+  width: 30%;
+}
